@@ -1,0 +1,38 @@
+{
+  "archive_remote": "git@github.com:TejasARathod/mycelium.git",
+  "archive_head": "40a0524ee8e8f1be224e11c493bf4263344b8a39",
+  "source_note": "Copied from the local working tree, which contains uncommitted changes. Hashes identify the exact included files; HEAD alone does not identify these versions.",
+  "files": [
+    {
+      "file": "src/mycelium/distributional_metrics.py",
+      "source": "Work/scripts/eval/distributional_metrics.py",
+      "sha256": "a3724ce0f8ce2b0e9481a432c62ca79999015ea01bf010c15c9e0e0125d6dcbe",
+      "status": "unchanged research source"
+    },
+    {
+      "file": "src/mycelium/prompts.py",
+      "source": "Experiments/E06_final_oob_vs_finetuned/generation/prompts.py",
+      "sha256": "ef6b8beeff9e16a26f9df764552204dd780f252aa0d31365b241c74268ca36d8",
+      "status": "unchanged research source"
+    },
+    {
+      "file": "reference/training/train_lora.py",
+      "source": "Experiments/E06_final_oob_vs_finetuned/training/train_lora.py",
+      "sha256": "decc08aad86ba666a42457d22099dacd996c29e26d55d545b38e1d7e9681f8eb",
+      "status": "unchanged research source"
+    },
+    {
+      "file": "reference/explainability/explain_checkpoint.py",
+      "source": "Work/scripts/generate/explain_checkpoint.py",
+      "sha256": "b2c1cdf5056a17b588ee1c96ccad955677dfa758a9548a93be4de60198d3ca07",
+      "status": "unchanged research source"
+    },
+    {
+      "file": "reference/orchestration/orchestrate.py",
+      "source": "Work/scripts/runpod/orchestrate.py",
+      "sha256": "1b44ea2b66139decaa69d8d39820443ed60d3b8a953781c49469028a18ae5132",
+      "status": "research source with demo notebook password replaced by required environment variable",
+      "original_sha256": "d69b9f4da235c2e2eeec5b6b05c9ce31090c7756644e2084a44d7809c74eed77"
+    }
+  ]
+}

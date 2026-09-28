@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">Mycelium: from image data to interpretable evidence</title><desc id="desc">Real scene data is curated into training and held-out reference sets. Base and fine-tuned generation feed geographic and distributional evaluation. Explainability tests support interpretation.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#52b7bd"/></marker></defs>
+<rect width="1200" height="480" rx="20" fill="#101e32"/>
+<g font-family="Arial, sans-serif"><text x="44" y="55" fill="#6ed5cb" font-size="15" letter-spacing="3">MYCELIUM / RESEARCH WORKFLOW</text>
+<text x="44" y="97" fill="white" font-size="29" font-weight="bold">From image data to interpretable evidence</text>
+<g fill="#1c3049" stroke="#3c5672"><rect x="44" y="140" width="245" height="130" rx="12"/><rect x="333" y="140" width="245" height="130" rx="12"/><rect x="622" y="140" width="245" height="130" rx="12"/><rect x="911" y="140" width="245" height="130" rx="12"/></g>
+<g fill="white" font-size="19" font-weight="bold"><text x="62" y="172">01  Curate</text><text x="351" y="172">02  Adapt</text><text x="640" y="172">03  Evaluate</text><text x="929" y="172">04  Explain</text></g>
+<g fill="#c4d1e2" font-size="15"><text x="62" y="207">OSV-5M scene data</text><text x="62" y="232">Separate training / reference</text><text x="62" y="254">Geographic + duplicate checks</text><text x="351" y="207">FLUX.2 klein Base 9B + LoRA</text><text x="351" y="232">4 cells · 40 images / adapter</text><text x="351" y="254">Matched base / adapted runs</text><text x="640" y="207">GeoReasoner · PLONK</text><text x="640" y="232">CLIP + DINOv2 distributions</text><text x="640" y="254">Local detail + uncertainty</text><text x="929" y="207">Token / attention probes</text><text x="929" y="232">Evaluator dependency checks</text><text x="929" y="254">Evidence-led interpretation</text></g>
+<g stroke="#52b7bd" stroke-width="2" marker-end="url(#arrow)"><path d="M290 205 H324"/><path d="M579 205 H613"/><path d="M868 205 H902"/></g>
+<rect x="44" y="309" width="1112" height="66" rx="10" fill="#153d48"/>
+<text x="65" y="338" fill="#95e9db" font-size="17" font-weight="bold">Engineering throughout the research</text><text x="65" y="362" fill="#d6eeef" font-size="15">GPU job orchestration · model-specific environments · result collection · controlled comparisons</text>
+<text x="44" y="421" fill="white" font-size="20">What changes after adaptation — and what does each score actually measure?</text>
+<text x="44" y="451" fill="#97acc5" font-size="14">UCL × Cambridge Consultants · Tejas Ajay Rathod · MSc research, 2026</text></g></svg>

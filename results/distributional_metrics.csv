@@ -1,0 +1,9 @@
+backbone,cell,base_recall,finetuned_recall,base_coverage,finetuned_coverage,base_precision,finetuned_precision
+CLIP,india_rural,0,0,0.004,0.044,0.004,0.188
+CLIP,india_urban,0,0,0.052,0.008,0.498,0.072
+CLIP,uk_rural,0,0,0.036,0.032,0.152,0.296
+CLIP,uk_urban,0,0,0.016,0.012,0.249,0.552
+DINOv2,india_rural,0,0,0.004,0.044,0.132,0.4
+DINOv2,india_urban,0,0,0.068,0.04,0.606,0.344
+DINOv2,uk_rural,0,0,0.092,0.112,0.92,0.9
+DINOv2,uk_urban,0,0,0.024,0.024,0.851,0.932

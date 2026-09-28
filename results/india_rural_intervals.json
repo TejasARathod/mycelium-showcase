@@ -1,0 +1,39 @@
+{
+  "source": "Submitted thesis, Table 14; 5000 bootstrap resamples; n=250 per condition",
+  "georeasoner": {
+    "base": 0.716,
+    "base_ci": [
+      0.66,
+      0.772
+    ],
+    "finetuned": 0.984,
+    "finetuned_ci": [
+      0.968,
+      0.996
+    ]
+  },
+  "plonk": {
+    "base": 0.036,
+    "base_ci": [
+      0.021,
+      0.052
+    ],
+    "finetuned": 0.497,
+    "finetuned_ci": [
+      0.473,
+      0.519
+    ]
+  },
+  "locale_specificity": {
+    "base": 0.167,
+    "base_ci": [
+      0.146,
+      0.188
+    ],
+    "finetuned": 0.427,
+    "finetuned_ci": [
+      0.41,
+      0.444
+    ]
+  }
+}

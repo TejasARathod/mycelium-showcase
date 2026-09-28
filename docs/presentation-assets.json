@@ -1,0 +1,49 @@
+{
+  "source": "the-distribution-argument_offline.html",
+  "source_sha256": "f791967c3021c2bad1bcbac22c83594c9204e2a721ab15543de07e9187a957c7",
+  "note": "Embedded PNG assets extracted without visual modification. Claims and sample sizes are attributed to the presentation.",
+  "assets": [
+    {
+      "file": "assets/presentation/word-to-region-attention.png",
+      "slide_image_index_zero_based": 2,
+      "alt": "Word-to-region attention heatmaps for rickshaw and cow, first step vs last step",
+      "sha256": "570459f5da1224f83820ae8da0ae2204b70777baff337f8601fbd923280488a5"
+    },
+    {
+      "file": "assets/presentation/prompt-switch-timing.png",
+      "slide_image_index_zero_based": 3,
+      "alt": "Montage of a goat gradually becoming a cow as the prompt-switch step increases from 0 to 50",
+      "sha256": "e35114ad141c3f154a8f47b777e4feca73e0e8913a462daaec1362a11edf18f1"
+    },
+    {
+      "file": "assets/presentation/reasoning-attention-audit.png",
+      "slide_image_index_zero_based": 9,
+      "alt": "Bar chart: reasoning-to-country and reasoning-to-city attention against a shuffled baseline, per image",
+      "sha256": "d1780a8a5cc5d5b2875d3d35e78a13c76924a7a17b4094a2ac01e54e4ffa1c37"
+    },
+    {
+      "file": "assets/presentation/shared-encoder-errors.png",
+      "slide_image_index_zero_based": 10,
+      "alt": "Scatter plot: PLONK's error displacement against StreetCLIP's error displacement, east and north components, for the collapsed India-rural test cell. Points cluster along the same direction rather than scattering randomly.",
+      "sha256": "4a73b4282eb3eeee13dcaa90bee85bf9ced9ae3207f943aedf4185b648abf8ce"
+    },
+    {
+      "file": "assets/presentation/plonk-india-rural-likelihood.png",
+      "slide_image_index_zero_based": 11,
+      "alt": "PLONK likelihood-grid heatmap, collapsed India-rural test image: a sharp peak over the Gulf of Guinea instead of India",
+      "sha256": "caf352d7130a101dcaa52c1a0380380f169871501a91a62a3eefdaba44f434e2"
+    },
+    {
+      "file": "assets/presentation/plonk-india-urban-control.png",
+      "slide_image_index_zero_based": 12,
+      "alt": "PLONK likelihood-grid heatmap, India-urban control: peaks correctly over India",
+      "sha256": "237898a4d35c432e46e78db5d6a18ed70df69d1f338da3406b405476ecf2ad8b"
+    },
+    {
+      "file": "assets/presentation/plonk-trajectory.png",
+      "slide_image_index_zero_based": 15,
+      "alt": "Line chart: fraction of the particle ensemble landing in the West Africa box over the same integration, overtaking the true-country fraction for the failed India image partway through, staying at zero for the UK control",
+      "sha256": "7663cf28e6529456cd723623755705ce5274b4f2c73eab2c6f26ad53d9fcbd2d"
+    }
+  ]
+}

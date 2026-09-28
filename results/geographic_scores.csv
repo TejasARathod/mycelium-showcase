@@ -1,0 +1,5 @@
+cell,base_correct,base_valid_n,finetuned_correct,finetuned_valid_n,base_plonk_geoscore,finetuned_plonk_geoscore
+india_rural,179,250,246,250,0.036,0.497
+india_urban,249,249,250,250,0.741,0.77
+uk_rural,247,250,244,250,0.854,0.838
+uk_urban,249,249,198,250,0.834,0.86
